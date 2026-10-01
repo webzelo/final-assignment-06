@@ -1,10 +1,11 @@
 import Hero from "@/components/home/Hero";
-import Image from "next/image";
+import WorkoutLibrary from "@/components/home/WorkoutLibrary";
 
 export default function Home() {
   return (
     <>
       <Hero />
+      <WorkoutLibrary />
     </>
   );
 }

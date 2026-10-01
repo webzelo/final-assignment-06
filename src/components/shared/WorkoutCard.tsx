@@ -17,10 +17,12 @@ export default function WorkoutCard({ workout }: Props) {
       <div className="h-56 overflow-hidden">
 
         <Image
-          src={workout.image}
-          alt={workout.name}
-          className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
-        />
+  src={workout.image}
+  alt={workout.name}
+  width={500}
+  height={300}
+  className="w-full h-52 object-cover rounded-xl"
+/>
 
       </div>
 
