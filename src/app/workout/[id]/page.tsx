@@ -95,7 +95,7 @@ return (
             ["Sets", workout.sets],
             ["Reps", workout.reps],
             ["Duration", `${workout.duration} min`],
-            ["Calories", `${workout.calories} kcal`],
+            ["Calories", `${workout.caloriesBurned} kcal`],
             ["Rating", workout.rating],
           ].map(([label,value]) => (
 

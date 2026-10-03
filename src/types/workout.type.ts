@@ -3,14 +3,19 @@ export interface Workout {
   name: string;
   image: string;
   description: string;
-  category: string;
+
+  muscleGroups: string[];
+
   equipment: string;
   difficulty: string;
   duration: number;
-  calories: number;
+
+  caloriesBurned: number;
+
   rating: number;
   sets: number;
   reps: string | number;
   instructions: string[];
+
   completed?: boolean;
 }

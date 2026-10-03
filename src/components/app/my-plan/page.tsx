@@ -39,7 +39,7 @@ export default function PlanCard({
 
       <div className="flex flex-wrap gap-4 text-sm mt-4 text-white/70">
         <span>{workout.duration} min</span>
-        <span>{workout.calories} kcal</span>
+        <span>{workout.caloriesBurned} kcal</span>
         <span>★ {workout.rating}</span>
       </div>
 

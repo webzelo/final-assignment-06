@@ -20,7 +20,7 @@ export default function WorkoutFilter({ workouts }: Props) {
     }
 
     if (sortBy === "calories") {
-      copy.sort((a, b) => b.calories - a.calories);
+      copy.sort((a, b) => b.caloriesBurned - a.caloriesBurned);
     }
 
     if (sortBy === "rating") {

@@ -52,7 +52,7 @@ export default function WorkoutCard({ workout }: Props) {
 
           <div>
             <p className="text-xs text-white/40">Calories</p>
-            <p className="font-bold">{workout.calories}</p>
+            <p className="font-bold">{workout.caloriesBurned}</p>
           </div>
 
           <div>
